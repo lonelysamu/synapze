@@ -1,0 +1,230 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-width: 1100px;
+}
+
+.containertop{
+    background-image: url(images/Background/WEBPAGEPART1-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+
+
+
+    box-sizing: border-box;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100px;
+
+    box-sizing: border-box;
+    position: relative;
+}
+
+.centralize{
+    width:80%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.navtop{
+    width: 80%;
+    height: 100px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navcontainer{
+    width:auto;
+    height:100px;
+    box-sizing: border-box;
+
+    padding: 30px;
+    display: flex;
+
+}
+.navcontainerlogo{
+    width:auto;
+    height:100px;
+    box-sizing: border-box;
+
+    padding: 30px;
+    display: flex;
+
+}
+
+.navcontainermenu{
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    position: absolute;
+
+    top: 0;
+    right: 10%;
+
+    padding: 30px;
+    display: flex;
+
+    z-index: 1;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1500px) {
+    div.navcontainer {
+        visibility: hidden;
+    }
+    div.navcontainermenu {
+        visibility: visible;
+    }
+}
+
+.cta{
+    width: 60%;
+    height: 10vh;
+
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .containerbot{
+    background-image: url(images/Background/WEBPAGEPART2-04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+
+    box-sizing: border-box;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+  .containermid{
+    width: 100%;
+    height: auto;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.containermidtop{
+    width: auto;
+    height: auto;
+
+    box-sizing: border-box;
+    margin: 15px;
+    margin-top: 20px;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+
+.containmidtop img{
+    height: auto;
+    width: 80%;
+}
+
+.card{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin: 15px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}  
+
+.card img{
+    height: auto;
+    width: 80%;
+}
+
+
+.containerbotlower{
+    background-image: url(images/Background/WEBPAGEPART3-03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+
+    padding-top: 100px;
+    z-index: 3;
+}
+
+.card1{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+}  
+.card2{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+} 
+
+.card2 img{
+    height: auto;
+    width: 100%;
+}
+.card1 img{
+    height: auto;
+    width: 100%;
+}
