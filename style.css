@@ -453,7 +453,9 @@ input[type=text], select, textarea {
 
   }
 
-
+.backgroundblack{
+    background-color: black;
+}
 
 @media (max-width: 833px) {
     div.navbar-link {
@@ -508,4 +510,3 @@ input[type=text], select, textarea {
         height:30px
     }
 }
-
