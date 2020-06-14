@@ -66,7 +66,9 @@
     align-items: center;
 
     transition: 0.5s;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
 }
 
 .contentcard:hover{
@@ -95,6 +97,14 @@
     color: black;
     text-decoration: none;
 
+}
+
+#special{
+    margin-bottom: 20px;
+}
+
+#special img{
+    width: 80%;
 }
 
 .background1{
