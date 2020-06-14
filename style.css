@@ -502,3 +502,9 @@ input[type=text], select, textarea {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 420px) {
+    .partner-link img{
+        height:30px
+    }
+}
