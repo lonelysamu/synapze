@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,12 @@
 </head>
 
 <style>
-    body{
+    body {
         font-family: 'Montserrat', sans-serif;
+    }
+
+    html{
+        scroll-behavior: smooth;
     }
 </style>
 
@@ -21,26 +26,26 @@
         <img src="images\Background\WEBPAGEPART1-02.png" alt="">
 
         <!--Navigation bar-->
-        <div class="navbar-container">
+        <div class="navbar-container d-flex  ">
             <div class="navbar-center">
                 <div class="navbar-logo">
-                    <img src="images\Menu Bar-Top\1. Home Page-2-02.png"  alt="">
+                    <img src="images\Menu Bar-Top\1. Home Page-2-02.png" alt="">
                 </div>
                 <div class="navbar-item">
                     <div class="navbar-link">
-                        <a href="" style="text-decoration: underline orange;"> HOME</a>
+                        <a href="index.html" style="text-decoration: underline orange;"> HOME</a>
                     </div>
                     <div class="navbar-link">
-                        <a href=""> ABOUT US</a>
+                        <a href="aboutus.html"> ABOUT US</a>
                     </div>
                     <div class="navbar-link">
-                        <a href=""> #SAYADIGITAL</a>
+                        <a href="kamidigital.html"> #KAMIDIGITAL</a>
                     </div>
                     <div class="navbar-link">
-                        <a href=""> TESTIMONIAL</a>
+                        <a href="testimonial.html"> TESTIMONIAL</a>
                     </div>
                     <div class="navbar-link">
-                        <a href=""> CONTACT US</a>
+                        <a href="#contactus"> CONTACT US</a>
                     </div>
                 </div>
                 <div class="navbar-item">
@@ -51,12 +56,12 @@
                     </div>
                     <div class="navbar-link">
                         <a href="https://www.facebook.com/synapzemy">
-                            <img src="images\Menu Bar-Top\1. Home Page-2-09.png"height=50px width=auto alt="">
+                            <img src="images\Menu Bar-Top\1. Home Page-2-09.png" height=50px width=auto alt="">
                         </a>
                     </div>
                     <div class="navbar-link">
                         <a href="">
-                            <img src="images\Menu Bar-Top\1. Home Page-2-10.png"height=50px width=auto alt="">
+                            <img src="images\Menu Bar-Top\1. Home Page-2-10.png" height=50px width=auto alt="">
                         </a>
                     </div>
                 </div>
@@ -65,33 +70,23 @@
                     <div class="dropdown">
                         <img src="images\open-menu.png" height=50px width=50px alt="">
                         <div class="dropdown-content">
-                          <p>
-                            <a href="">HOME</a>
-                        </p>
-                        <p>
-                            <a href="">ABOUT US</a>
-                        </p>
-                        <p>
-                            <a href="">#SAYADIGITAL</a>
-                        </p>
-                        <p>
-                            <a href="">TESTIMONIAL</a>
-                        </p>
-                        <p>
-                            <span>GET IN TOUCH</span>
-                        </p>
-                            <hr>
-                        <p>
-                            <a href="https://www.youtube.com/channel/UCijAK3k6SAQhNAv4SDLiV-Q">Youtube</a>
-                        </p>
-                         <p>
-                            <a href="https://www.facebook.com/synapzemy">Facebook</a>
-                        </p>
-                         <p>
-                            <a href="">Instagram</a>
-                        </p>
+                            <p>
+                                <a href="index.html">HOME</a>
+                            </p>
+                            <p>
+                                <a href="aboutus.html">ABOUT US</a>
+                            </p>
+                            <p>
+                                <a href="kamidigital.html">#KAMIDIGITAL</a>
+                            </p>
+                            <p>
+                                <a href="testimonial.html">TESTIMONIAL</a>
+                            </p>
+                            <p>
+                                <a href="#contactus">GET IN TOUCH</a>
+                            </p>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,13 +94,15 @@
         <!--CTA-->
         <div class="cta-container">
             <div class="cta-item">
-                <img src="images\Menu Bar-Top\1. Home Page-2-11.png" width="100%" height="auto" alt="">
+                <h1 class="hero">We Think Beyond</h1>
             </div>
             <div class="cta-itemtext">
-                <p>Synapze is an education consultant company that turns concept ideas into reality</p>
+                <p>Synapze is an education consultant company that turns conceptual ideas into reality</p>
             </div>
             <div class="cta-item">
-                <button class = "btn-format">Know Us More</button>
+                <a href="aboutus.html">
+                    <button class="btn-format">Know Us More</button>
+                </a>        
             </div>
         </div>
 
@@ -120,97 +117,135 @@
         <div class="main-container-center">
             <div class="card-container">
                 <div class="cardtop">
-                   <img src="images\2. Our Services\1. Home Page-2-16.png" width=80px height = auto alt="">
+                    <img src="images\2. Our Services\1. Home Page-2-16.png" width=80px height=auto alt="">
                 </div>
                 <div class="cardbot">
                     <h2>Events</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eligendi.
+                    <p>The #mydigitalmaker Virtual Fair 2020 is the flagship event of the #mydigitalmaker Movement since
+                        2017.
+
                     </p>
                 </div>
             </div>
             <div class="card-container">
                 <div class="cardtop">
-                   <img src="images\2. Our Services\1. Home Page-2-17.png" width=200px height = auto alt="">
+                    <img src="images\2. Our Services\1. Home Page-2-17.png" width=200px height=auto alt="">
                 </div>
                 <div class="cardbot">
                     <h2>#KAMIDIGITAL</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eligendi.</p>
+                    <p>Prepare yourself for the future. We create and aggregate digital enablement content to ensure
+                        that the youth's of Malaysia are future ready</p>
                 </div>
             </div>
             <div class="card-container">
                 <div class="cardtop">
-                   <img src="images\2. Our Services\1. Home Page-2-15.png" width=100px height = auto alt="">
+                    <img src="images\2. Our Services\1. Home Page-2-15.png" width=100px height=auto alt="">
                 </div>
                 <div class="cardbot">
                     <h2>Digital Consultation</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eligendi.</p>
+                    <p>Have a project that you want to run but dont know where to start? schedule a one on one sessions
+                        with our facilitators today </p>
                 </div>
             </div>
 
         </div>
         <div class="main-container-center">
-            <button class = "btn-format2">Read More</button>
+            <a href="kamidigital.html">
+                <button class="btn-format2">Read More</button>
+            </a>
+            
         </div>
     </div>
 
     <!-- class="main-container"Past Work & Get in Touch-->
     <div class="main-container-bot">
         <div class>
-            <img src="images\Background\WEBPAGEPART2-04.png" width="100%" height= auto alt="">
+            <img src="images\Background\WEBPAGEPART2-04.png" width="100%" height=400px alt="">
         </div>
 
         <div class="main-container-bot-content">
             <div class="main-container-center color-white resize-small">
-                <h1>Our Partners</h1>
+                <div class="partner-container">
+                    <h1>Partners</h1>
+                </div>
 
-                <div class = "partner-container">
+
+                <div class="partner-container">
                     <div class="partner-link">
-                        <a href="">
-                            <img src="images\Cytron-Logo-LIGHT_BLUE.png" alt="">
+                        <a href="https://www.engagemedia.com.my/" target="blank">
+                            <img class="lightup"
+                                src="https://www.engagemedia.com.my/wp-content/uploads/2018/04/cropped-New-EM-Logo-1024x555.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="partner-link">
+                        <a href="https://mdec.my/" target="blank">
+                            <img class="lightup"
+                                src="https://mdec.my/wp-content/themes/mdec_v4/assets/images/shared/logos/mdec.png"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="partner-link">
+                        <a href="https://my.usembassy.gov/" target="blank">
+                            <img class="lightup" src="images\american embassy.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="partner-link">
+                        <a href="https://microbit.org/" target="blank">
+                            <img class="lightup" src="images\microbit logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="partner-link">
+                        <a href="https://dekoded.astroceria.com.my/">
+                            <img class="lightup"
+                                src="https://cdn.shopify.com/s/files/1/0313/0703/8855/files/Untitled_design_6_002_180x.png?v=1586410373"
+                                alt="">
+                        </a>
+                    </div>
+                    <div class="partner-link">
+                        <a href="https://www.cytron.io/" target="blank">
+                            <img class="lightup" src="images\Cytron-Logo-LIGHT_BLUE.png" alt="">
                         </a>
                     </div>
 
                     <div class="partner-link">
-                        <a href="">
-                            <img src="images\element14.png" alt="">
+                        <a href="https://www.element14.com/" target="blank">
+                            <img class="lightup" src="images\element14.png" alt="">
                         </a>
                     </div>
                 </div>
-                
-            </div>    
+
+            </div>
 
         </div>
 
-        <div class= "divider">
+        <div class="divider">
             <img src="images\Background\WEBPAGEPART3-03.png" alt="">
         </div>
     </div>
-    
+
     <!-- class="main-container"Footer-->
-    <div class="main-container">
-        <div class="container">
-            <form action="action_page.php">
-          
-              <label for="name">Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="email">email address</label>
-              <input type="text" id="email" name="email" placeholder="Your email address..">
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div>
+    <div class="main-container-last">
+        <div class="c-container">
+            <h1 id="contactus">Contact Us</h1>
+            <p>For any further enquiries into the business that we do, feel free to contact us via any of our available
+                communicative channels or through email below!
+            </p>
+            
+            <a href = "mailto:contact@synapzemy.com "><button class="btn-format" >Drop us an email</button></a>
+
+            
+        </div>
+
     </div>
-    
+
+
     <br>
 
     <div class="bot">
-        <img src="images\Background\WEBPAGE END BANNER-06.png" height = 30px width = 100%  alt="">
+        <img src="images\Background\WEBPAGE END BANNER-06.png" height=30px width=100% alt="">
     </div>
-    
+
 </body>
+
 </html>
