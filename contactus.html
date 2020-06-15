@@ -26,6 +26,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
 </head>
 
 <style>
@@ -45,7 +46,7 @@
     <nav class="navbar-container backgroundblack  ">
         <div class="navbar-center">
             <div class="navbar-logo">
-                <img src="images\Menu Bar-Top\1. Home Page-2-02.png" alt="">
+                <a href="index.html"><img src="images\Menu Bar-Top\1. Home Page-2-02.png" alt="Synapze Word Logo"></a>
             </div>
             <div class="navbar-item">
                 <div class="navbar-link">
@@ -124,10 +125,70 @@
         </div>
     </nav>
 
-    <div class="cta-container"> 
-        <h1 > COMING SOON</h1>
-    </div>
-    
+    <main class="contentbody">
+        <section class="leftbox">
+            <div class="content">
+                <h1>Contact Us At</h1>
+            </div>
+            <div class="content">
+                <p>You can reach us through the following channels</p>
+            </div>
+            <div class="content">
+                <a href="mailto:contact@synapzemy.com">
+                    <div class="content" id="link">
+                        <img src="images\Menu Bar-Top\email.svg" alt="email icon">
+                    </div>
+                </a>
+
+                <a href="https://www.facebook.com/synapzemy">
+                    <div class="content" id="link">
+                        <img src="images\Menu Bar-Top\facebook.png" alt="facebook icon">
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/synapzemy">
+                    <div class="content" id="link">
+                        <img src="images\Menu Bar-Top\instagram.png" alt="instagram icon">
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/company/synapzemy/">
+                    <div class="content" id="link">
+                        <img src="images\Menu Bar-Top\Linkendin.png" alt="linkedin icon">
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/channel/UCijAK3k6SAQhNAv4SDLiV-Q">
+                    <div class="content" id="link">
+                        <img src="images\Menu Bar-Top\youtube.svg" alt="youtube icon">
+                    </div>
+                </a>
+                <a href="tel:03-79541277"
+                    onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+                    <div class="content" id="link">
+                        <img src="images\Menu Bar-Top\phone.svg" alt="phone icon">
+                    </div>
+                </a>
+            </div>
+
+            <div class="content address">
+
+                <h1> Or Visit Us At</h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>Unit 305, Block B, <br> 
+                Phileo Damansara I <br>
+                46350 Petaling Jaya, Selangor </p>
+            </div>
+
+        </section>
+        <section class="rightbox">
+            <div class="content">
+                <div class="mapouter">
+                    <iframe src="https://embed.waze.com/iframe?zoom=17&lat=3.127559&lon=101.643430&ct=livemap"
+                        width="600" height="450" id="gmap_canvas" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
 
 
