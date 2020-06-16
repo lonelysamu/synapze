@@ -1,98 +1,113 @@
-#special{
-    margin-top: 40px;
-}
-
-.pccont{
-    width: 100%;
-    height: calc(100% - 100px);
-    position: absolute;
-    top:100px;
-    box-sizing: border-box;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .contentcontainer{
     width: 100%;
     height: auto;
 
-
-    box-sizing: border-box;
-    
+    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+
+    justify-content: center;
+
+    overflow: hidden;
 }
 
-.containertest{
-    height:auto;
-    width: 100%;
+.leftbox{
+    width: 35%;
+    height: auto;
 
-    text-align: center;
-    box-sizing: border-box;
 
+    display:flex;
     flex-direction: column;
-}
-#local{
-    background-color:lightsteelblue;
-    padding: 20px;
-}
-
-#global{
-    background-color:steelblue;
-    padding: 20px;
-}
-#magichead{
-    display: none;
-    margin-top: 20px;
-    font-size: 3vw;
-}
-
-.titlename{
-    font-size: 1rem;
-}
-
-.cardcont{
-    width: 50vw;
-    height: 200px;
-
-
-    margin: 20px;
-    
-    display: flex;
     align-items: center;
+    justify-content: center;
 
-    
-}
-
-.piccont{
-    width: 100px;
-    height: 100px;
-
+    box-sizing: border-box;
+    padding: 20px;
 
 }
 
-.textcont{
-    width: calc(50vw - 200px);
+.logo{
+    width: auto;
+    height: auto;
+}
 
-    height: 200px;
-    background-color: rgba(119, 136, 153, 0.712);
+.text{
+    width: auto;
+    height: auto;
     text-align: center;
-    padding: 10px;
 }
 
-#reverse{
-    flex-direction: row-reverse;
+
+
+#cardsystem{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardsystem a{
+    text-decoration: none;
+    color: black;
+}
+
+.rightbox{
+    width: 65%;
+    height: auto;
+    background-color: #8C979A;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
-@media(max-width: 833px){
-    #magichead{
-        display: block;
-    }
+.cardcontain{
+    width: 20vw;
+    height: auto;
 
-    .pccont{
-        visibility: hidden;
+    transition:0.5s;
+    position :relative;
+    margin: 20px;
+}
+
+.cardcontain:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.cardcontain img{
+    width:20vw;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.cardcontain img:hover{
+
+    transition: 0.5s;
+    filter: grayscale(0%);
+}
+
+
+
+
+
+@media(max-width:833px){
+    .contentcontainer{
+        flex-direction: column;
     }
+    .leftbox{
+        width: 100%;
+
+
+    }
+    .rightbox{
+        width: 100%;
+
+    }
+    .cardcontain{
+        width: 90vw;
+
+    }
+    
 }
