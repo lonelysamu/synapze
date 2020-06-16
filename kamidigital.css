@@ -37,6 +37,7 @@
 
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -44,6 +45,10 @@
 
 
 
+}
+
+.titlecontainer img{
+    width:80%;
 }
 
 .cardcontentcontainer{
@@ -64,7 +69,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    
     transition: 0.5s;
     margin-left: 5px;
     margin-right: 5px;
@@ -128,7 +133,12 @@
 
     .titlecontainer{
         width: 60%;
+        flex-direction: row;
+    }
 
+    .titlecontainer img{
+        height: 90px;
+        width: auto;
     }
 
     .cardcontentcontainer{
