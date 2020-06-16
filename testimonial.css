@@ -62,7 +62,7 @@
     
     display: flex;
     align-items: center;
-
+    box-sizing: border-box;
     
 }
 
@@ -93,6 +93,6 @@
     }
 
     .pccont{
-        visibility: hidden;
+        display:none;
     }
 }
