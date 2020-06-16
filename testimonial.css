@@ -49,6 +49,10 @@
     font-size: 3vw;
 }
 
+.titlename{
+    font-size: 1rem;
+}
+
 .cardcont{
     width: 50vw;
     height: 200px;
