@@ -126,7 +126,13 @@
     background-color: #6E7B8B;
 }
 .background5{
-    background-color: #2a4d69;
+    background-color: #49525e;
+}
+.background6{
+    background-color: #24282e;
+}
+.background7{
+    background-color: #08090a;
 }
 @media (max-width:667px){
     .maincardcontainer{
